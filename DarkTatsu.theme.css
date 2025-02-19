@@ -1,12 +1,10 @@
 /**
- * @name Dark Tatsu
+ * @name BetterDiscord Dark Tatsu theme
  * @author Tatsu25, Sami6053
- * @version 1.0.0
- * @description A dark & neon theme.
- * @source 
+ * @version 2025.2.19
+ * @description A dark & neon theme for BetterDiscord.
+ * @source https://github.com/Sami6053/Discord-Tatsu-Dark-Theme/blob/main/DarkTatsu.theme.css
 */
-
-/* @import url('https://DiscordStyles.github.io/DarkMatter/src/base.css'); */
 
 /* Variables */
 :root {
@@ -1250,3 +1248,55 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
 div:has(> .searchBar_c7e907) {
   order: -2;
 }
+
+
+/* Hide Users */
+:root {
+  --hidden-user-width: 60px;
+  --user-width: 240px;
+}
+
+.container_c8ffbb,
+.membersWrap_c8ffbb {
+  transition-duration: var(--transition-time);
+  justify-content: unset;
+  min-width: unset;
+  width: var(--hidden-user-width);
+}
+
+.membersGroup_c8ffbb {
+  height: 0px;
+  transition-duration: var(--transition-time);
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+.container__0f2e8 {
+  height: 0px;
+  transition-duration: var(--transition-time);
+  overflow: hidden;
+  padding: 0px;
+}
+
+.container_c8ffbb:hover .membersGroup_c8ffbb,
+.membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
+  height: 40px;
+  padding-top: 24px;
+}
+
+.container_c8ffbb:hover {
+  .container__0f2e8 {
+    height: 48px;
+    padding: 8px;
+  }
+}
+
+.container_c8ffbb:hover,
+.membersWrap_c8ffbb:hover {
+  width: var(--user-width);
+}
+
+.profilePanel-2PWEok {
+  transition-duration: var(--transition-time);
+}
+
