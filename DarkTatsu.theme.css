@@ -1,0 +1,68 @@
+/**
+ * @name Dark Tatsu
+ * @author Tatsu25, Sami6053
+ * @version 1.0.0
+ * @description A dark & neon theme.
+ * @source 
+*/
+
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+
+/* Variables */
+:root {
+    --avatar-size: 32px;
+    --home-image: url('https://i.imgur.com/233d55Y.gif');
+    --background-solid: #161921;
+    --background-solid-dark: #101218;
+    --background-solid-darker: #0c0e12;
+    --accent: 37, 172, 232;
+    --accent-alt: 29, 101, 134;
+    
+	--AD-buttons: none;
+	--active-now: block;
+	--server-spacing: 16px!important;
+	--server-glow-intensity: 1;
+	--settingsiconssize: 18px;
+	--settingsiconsgap: 14px;
+	--sidebar-width: 245px;
+	--discord-opacity: 1.0;
+	--background-primary: rgba(0, 0, 0, 0);
+	--background-primary: #1a1a1a;
+	--border-primary: #5c5c5c;
+	--border-secondary: #c0c0c0;
+	--control-brand-foreground: #3a496b;
+	--category-title-text-color: #3973AC;
+	--unread-channel-text: #ffffff;
+	--default-channel-text: #949BA4;
+	--muted-channel-text: #4E5058;
+	--brand-experiment: #3a496b;
+	--brand-experiment-15a: rgba(114,137,218,0.15);
+	--selection-background: #265d96;
+	--selection-text: #ffffff;
+	--red-button: #712828;
+	--red-button-hover: #973535;
+	--red-button-border: #ba1212;
+	--green-button: #508055;
+	--green-button-hover: #629d68;
+	--green-button-border: #00b344;
+	--blue-button: #2e3952;
+	--blue-button-hover: #3a496b;
+	--blue-button-border: #265d96;
+	--white-button: #ffffff;
+	--white-button-hover: #dedede;
+	--white-button-border: #808080;
+	--gray-button: #4f545c;
+	--gray-button-hover: #646970;
+	--gray-button-border: #919599;
+	--orange-button: #A54829;
+	--orange-button-hover: #C65731;
+	--orange-button-border: #CC4300;
+	--scrollbar-color: rgba(55, 55, 55, 0.5);
+	--scrollbar-hover-color: rgba(75, 75, 75, 1);
+	--scrollbar-width: 8px;
+	--server-unread-colour: 194, 178, 60;
+	--server-hover-colour: 186, 186, 186;
+	--server-selected-colour: var(--accent, 53, 175, 234);
+	--server-spacing: 16px;
+	--titlebar-height: 20px;
+}
