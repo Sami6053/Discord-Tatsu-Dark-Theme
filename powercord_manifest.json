@@ -1,9 +1,9 @@
 {
-    "name": "Dark Matter",
-    "description": "A cold, dark & frosty theme.",
-    "version": "3.0",
-    "author": "Tropical#8908, Hammock#3110",
-    "theme": "DarkMatter.theme.css",
+    "name": "Dark Tatsu",
+    "description": "A dark & neon theme.",
+    "version": "1.0",
+    "author": "Tatsu25, Sami6053",
+    "theme": "DarkTatsu.theme.css",
     "consent": ["ext_listing"],
     "license": "MIT"
 }
